@@ -3,7 +3,7 @@
 $email_envio = 'maxsuelf94@gmail.com'; //Email receptor
 $email_pass = 'maxsueledivkagab'; //Senha do email
 
-$site_name = 'Joana'; //Nome do site
+$site_name = 'Lorem'; //Nome do site
 $site_url = ''; //Url do site
 
 $host_smtp = 'smtp.gmail.com'; //HOST SMTP Ex: smtp.domain.com.br
@@ -51,9 +51,9 @@ if(isset($_POST['nome'])) {
 	$mail->Password = $email_pass;
 	$mail->Port = $host_port;
 
-	$mail->From = "joannaliins@gmail.com";
+	$mail->From = "#@gmail.com";
 
-	$mail->addAddress("joannaliins@gmail.com");
+	$mail->addAddress("#@gmail.com");
 
 	$mail->FromName = 'Formulário de Contato';
 	$mail->AddReplyTo($_POST['email'], $_POST['nome']);
@@ -72,7 +72,7 @@ if(isset($_POST['nome'])) {
 		font-family: 'Inconsolata', 'Arial', 'Sans-serif';
 		font-weight: normal;
 		color: #fdc64b;
-		\"><center><span>Aconteceu algum erro!</span><p>Você pode tentar novamente ou enviar direto para " . "joannaliins@gmail.com" . "!</p></center></h2>";
+		\"><center><span>Aconteceu algum erro!</span><p>Você pode tentar novamente ou enviar direto para " . "#@gmail.com" . "!</p></center></h2>";
 
 		print "<html style=\"background: #fff;\"></html>";
 		print "<meta HTTP-EQUIV='Refresh' CONTENT='10;URL=" . $site_url . "'>";

@@ -251,7 +251,7 @@ button.navbar-toggle {
 
 /* Lateral */
 
-.perfil-joana {
+.perfil-lorem {
   width: 250px;
   background-color: #EDECE8;
   text-align: center;
@@ -260,13 +260,13 @@ button.navbar-toggle {
   padding-bottom: 30px;
 }
 
-.perfil-joana img {
+.perfil-lorem img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
 }
 
-.perfil-joana .nome {
+.perfil-lorem .nome {
   font-size: 20px;
   line-height: 35px;
   font-weight: bold;
@@ -274,7 +274,7 @@ button.navbar-toggle {
   margin-bottom: 12px;
 }
 
-.perfil-joana .nome:before {
+.perfil-lorem .nome:before {
   content: "";
   display: block;
   width: 190px;
@@ -283,7 +283,7 @@ button.navbar-toggle {
   margin: 0 auto 3px auto;
 }
 
-.perfil-joana .nome:after {
+.perfil-lorem .nome:after {
   content: "";
   display: block;
   width: 190px;
@@ -292,7 +292,7 @@ button.navbar-toggle {
   margin: 3px auto 0 auto;
 }
 
-.perfil-joana .sobre {
+.perfil-lorem .sobre {
   font-size: 16px;
   line-height: 24px;
   padding: 0 25px;

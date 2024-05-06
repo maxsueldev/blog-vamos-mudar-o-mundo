@@ -10,7 +10,7 @@
 
 @media only screen and (min-width: 960px) and (max-width: 1160px) {
 
-.perfil-joana, .artigos-populares {
+.perfil-lorem, .artigos-populares {
   width: 220px;
 }
 
@@ -90,19 +90,19 @@
 
 /* Lateral */
 
-.perfil-joana, .artigos-populares {
+.perfil-lorem, .artigos-populares {
   width: 180px;
 }
 
-.perfil-joana .nome:before {
+.perfil-lorem .nome:before {
   width: 130px;
 }
 
-.perfil-joana .nome:after {
+.perfil-lorem .nome:after {
   width: 130px;
 }
 
-.perfil-joana .sobre {
+.perfil-lorem .sobre {
   padding: 0 25px;
 }
 
@@ -230,20 +230,20 @@
   padding-top: 10px;
 }
 
-.perfil-joana {
+.perfil-lorem {
   width: 90%;
   margin: 0 auto;
 }
 
-.perfil-joana .nome:before {
+.perfil-lorem .nome:before {
   width: 175px;
 }
 
-.perfil-joana .nome:after {
+.perfil-lorem .nome:after {
   width: 175px;
 }
 
-.perfil-joana .sobre {
+.perfil-lorem .sobre {
   padding: 0 25px;
 }
 
